@@ -1,0 +1,14 @@
+server.port: 9494
+
+zuul:
+  routes:
+    staffs:
+      path: /staffs/**
+      serviceId: staff-service
+    assignments:
+      path: /assignments/**
+      serviceId: assignment-service
+    frontend:
+      path: /**
+      serviceId: jigsaw-frontend-service
+
