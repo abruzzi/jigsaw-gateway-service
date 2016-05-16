@@ -5,10 +5,8 @@ zuul:
     staffs:
       path: /staffs/**
       serviceId: staff-service
+      stripPrefix: false
     assignments:
       path: /assignments/**
       serviceId: assignment-service
-    frontend:
-      path: /**
-      serviceId: jigsaw-frontend-service
-
+      stripPrefix: false
