@@ -1,7 +1,24 @@
-.container {
+body {
+    background-color: #eee;
+}
+
+#search-from {
     padding-top: 40px;
 }
 
-.basic-info {
-    margin: 20px 0;
+.form-signin {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+input#username {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: -1px;
+}
+
+input#password {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
 }
