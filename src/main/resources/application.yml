@@ -13,7 +13,7 @@ zuul:
       stripPrefix: false
     users:
       path: /users/**
-      serviceId: users-service
+      serviceId: user-service
       stripPrefix: false
 
 eureka:

@@ -16,7 +16,7 @@ apply plugin: 'spring-boot'
 
 jar {
 	baseName = 'jigsaw-gateway-service'
-	version = '0.0.1-SNAPSHOT'
+	version = '1.0.0'
 }
 
 sourceCompatibility = 1.8
@@ -36,7 +36,6 @@ dependencies {
 	compile "org.springframework.boot:spring-boot-starter-thymeleaf:${springBootVersion}"
 	compile "mysql:mysql-connector-java:5.1.38"
 
-	compile('org.springframework.boot:spring-boot-starter-redis')
 	compile('org.springframework.session:spring-session')
 
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
