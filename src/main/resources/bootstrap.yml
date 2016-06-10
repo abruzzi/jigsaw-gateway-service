@@ -1,3 +1,6 @@
 spring:
   application:
-    name: jigsaw-gateway-service
+    name: gatewayservice
+  cloud:
+    config:
+      uri: http://localhost:9990/
